@@ -4,7 +4,7 @@
 I2C_HandleTypeDef hi2c1
 // #define GYRO_SENSOR_ADDRESS  // Putactuial I2C address
 
-unit8_t gyroData[10]
+unit8_t gyroData[10] //Change Data value depending on how gyro is configured
 void SystemClock_Config(void);
 void Error_Handler(void);
 
